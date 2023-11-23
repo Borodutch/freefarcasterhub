@@ -7,9 +7,9 @@ export default function () {
       <pre>
         <code>
           {`url: hub.freefarcasterhub.com
-httpapi_port: 2281
-gossipsub_port: 2282
-grpc_port: 2283`}
+httpapi_port: 3281
+gossipsub_port: 3282
+grpc_port: 3283`}
         </code>
       </pre>
       <p>
