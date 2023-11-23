@@ -8651,16 +8651,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fresh@npm:0.5.2":
-  version: 0.5.2
-  resolution: "fresh@npm:0.5.2"
-  checksum: 13ea8b08f91e669a64e3ba3a20eb79d7ca5379a81f1ff7f4310d54e2320645503cc0c78daedc93dfb6191287295f6479544a649c64d8e41a1c0fb0c221552346
-  languageName: node
-  linkType: hard
-
-"frontend-starter@workspace:.":
+"freefarcasterhub@workspace:.":
   version: 0.0.0-use.local
-  resolution: "frontend-starter@workspace:."
+  resolution: "freefarcasterhub@workspace:."
   dependencies:
     "@preact/preset-vite": ^2.7.0
     "@tailwindcss/typography": ^0.5.10
@@ -8679,7 +8672,6 @@ __metadata:
     eslint-plugin-react: ^7.33.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-sort-imports-es6-autofix: ^0.6.0
-    jotai: ^2.5.1
     postcss: ^8.4.31
     preact: ^10.19.2
     prettier: ^3.1.0
@@ -8691,6 +8683,13 @@ __metadata:
     vite-tsconfig-paths: ^4.2.1
   languageName: unknown
   linkType: soft
+
+"fresh@npm:0.5.2":
+  version: 0.5.2
+  resolution: "fresh@npm:0.5.2"
+  checksum: 13ea8b08f91e669a64e3ba3a20eb79d7ca5379a81f1ff7f4310d54e2320645503cc0c78daedc93dfb6191287295f6479544a649c64d8e41a1c0fb0c221552346
+  languageName: node
+  linkType: hard
 
 "fs-extra@npm:^10.0.0":
   version: 10.0.0
@@ -10754,21 +10753,6 @@ __metadata:
   bin:
     jiti: bin/jiti.js
   checksum: a7bd5d63921c170eaec91eecd686388181c7828e1fa0657ab374b9372bfc1f383cf4b039e6b272383d5cb25607509880af814a39abdff967322459cca41f2961
-  languageName: node
-  linkType: hard
-
-"jotai@npm:^2.5.1":
-  version: 2.5.1
-  resolution: "jotai@npm:2.5.1"
-  peerDependencies:
-    "@types/react": ">=17.0.0"
-    react: ">=17.0.0"
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    react:
-      optional: true
-  checksum: a8168a8cf2f7a5be3870ec5ee151a2e8ac1ad635e39241c5e223cb29a678eb88cea996cfc37466a017f83b34e33c76e764a3af5aeef8ab67b5b32543d6079456
   languageName: node
   linkType: hard
 
